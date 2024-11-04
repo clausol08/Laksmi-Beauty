@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laksmi Beauty</title>
+    <link rel="shortcut icon" href="./image/lb (1) (1).jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Laksmi Beauty Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-cart">
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Anillo para pegamento de pestañas x 50u.</p>
+                            <span class="precio-producto-carrito">$3.600</span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="cart-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$200</span>
+                </div>
+                <p class="cart-empty">El carrito está vacío</p>
+            </div>
+        </div>
+    </header>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img
+                    src="image/anillo (1).jpeg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Anillo porta pegamento x 50u.</h2>
+                <p class="price">$3.600</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/top y base.jpg"alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Base y Top Coat Charm Limit</h2>
+                <p class="price">$6.800</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/calibre.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Calibre para perfilado de cejas</h2>
+                <p class="price">$3.500</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/cepillo.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Cepillo para pestañas x 50u.</h2>
+                <p class="price">$3.000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/esponjas.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Esponjas para makeup x 4</h2>
+                <p class="price">$3.120</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/film-p-cejas-y-pest (1).jpeg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Film para cejas y pestañas</h2>
+                <p class="price">$4.800</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/iluminador.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>iluminador</h2>
+                <p class="price">$1.9000</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/lima cherimoya.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Esponjas para makeup x 4</h2>
+                <p class="price">$2.700</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/nano (1).jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Nanomister</h2>
+                <p class="price">$3.380</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/pinza.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Pinza curva tornasol x 3u.</h2>
+                <p class="price">$18.990</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/shampoo.jpg" alt="proucto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Shampoo Navina</h2>
+                <p class="price">$3.800</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="image/uñeros.jpg" alt="producto"/>
+            </figure>
+            <div class="info-product">
+                <h2>Uñeros x 50u.</h2>
+                <p class="price">$2.870</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
